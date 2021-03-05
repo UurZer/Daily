@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+}
+
+section {
+  position: absolute;
+  border: 1px solid #000000;
+  border-radius: 1%;
+  height: 500px;
+  margin: 0 auto;
+  width: 400px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+section .container {
+  margin: 20px;
+}
+
+section .container .card-thumbnail {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container .card-thumbnail .beetwen {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .container .card-thumbnail .beetwen .user-img {
+  margin: 10px;
+}
+
+section .container .card-thumbnail .beetwen .user-img img {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+
+section .container .card-thumbnail .icon {
+  margin: 10px;
+  padding: 10px;
+}
+
+section .container .card-content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=style.css.map */
